@@ -1,11 +1,11 @@
-# Social Media Hub
+# connectly
 
-A full-stack social media application with a React frontend and Supabase backend.
+a full-stack social media application with a react frontend and supabase backend.
 
-## Project Structure
+## project structure
 
 ```text
-orbit-social-hub-45/
+connectly/
 │
 ├── frontend/
 │   ├── src/
@@ -22,36 +22,36 @@ orbit-social-hub-45/
 ├── config/
 │   └── project.json
 │
-└── README.md
+└── readme.md
 ```
 
-## Technologies Used
+## technologies
 
-### Frontend
+### frontend
 
-* React
-* TypeScript
-* Vite
-* TanStack Router
-* Tailwind CSS
-* Fontsource
+* react
+* typescript
+* vite
+* tanstack router
+* tailwind css
+* fontsource
 
-### Backend
+### backend
 
-* Supabase
-* PostgreSQL
-* SQL Migrations
+* supabase
+* postgresql
+* sql migrations
 
-## Installation
+## installation
 
-### Clone the Repository
+### clone the repository
 
 ```bash
 git clone <repository-url>
-cd orbit-social-hub-45
+cd connectly
 ```
 
-### Frontend Setup
+### frontend setup
 
 ```bash
 cd frontend
@@ -59,83 +59,83 @@ npm install
 npm run dev
 ```
 
-The development server will start at:
+the development server will start at:
 
-```
+```text
 http://localhost:5173
 ```
 
-## Backend Setup
+## backend setup
 
-Navigate to the backend directory:
+navigate to the backend directory:
 
 ```bash
 cd backend
 ```
 
-Run Supabase locally (if using the Supabase CLI):
+run supabase locally (if using the supabase cli):
 
 ```bash
 supabase start
 ```
 
-Apply database migrations:
+apply database migrations:
 
 ```bash
 supabase db reset
 ```
 
-## Environment Variables
+## environment variables
 
-Create a `.env` file inside the `frontend` directory and add your project credentials.
+create a `.env` file inside the `frontend` directory and add your project credentials.
 
-Example:
+example:
 
 ```env
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+vite_supabase_url=your_supabase_url
+vite_supabase_anon_key=your_supabase_anon_key
 ```
 
-## Features
+## features
 
-* User Authentication
-* User Profiles
-* Social Feed
-* Posts
-* Likes
-* Comments
-* Responsive UI
+* user authentication
+* user profiles
+* social feed
+* posts
+* likes
+* comments
+* responsive ui
 
-## Folder Description
+## folder description
 
-### frontend/
+### frontend
 
-Contains the React application, UI components, assets, routing, and frontend configuration.
+contains the react application, ui components, assets, routing, and frontend configuration.
 
-### backend/
+### backend
 
-Contains the Supabase configuration and database migrations.
+contains the supabase configuration and database migrations.
 
-### config/
+### config
 
-Contains project-specific configuration files.
+contains project-specific configuration files.
 
-## Build
+## build
 
 ```bash
 cd frontend
 npm run build
 ```
 
-## Development
+## development
 
-Start the frontend:
+start the frontend:
 
 ```bash
 cd frontend
 npm run dev
 ```
 
-## License
+## license
 
-This project is intended for educational and learning purposes.
+this project is intended for educational and learning purposes.
